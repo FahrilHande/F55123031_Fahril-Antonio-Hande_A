@@ -1,0 +1,56 @@
+/* CSS dasar untuk tata letak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Bagian Header */
+header {
+    background-color: #166f85;
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+header h1 {
+    margin: 0;
+    }
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    }
+
+nav a:hover {
+    text-decoration: underline;
+    }
+
+  /* Bagian Konten Utama */
+main {
+    padding: 20px;
+    }
+
+section {
+    margin-bottom: 20px;
+    }
+
+#portfolio img {
+    max-width: 50%;
+    height: auto;
+    margin: 10px 0;
+    }
+
+  /* Bagian Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    }
